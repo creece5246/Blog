@@ -1,0 +1,145 @@
+@charset "UTF-8";
+body {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-size: 14px;
+    background-image: url(background_blog.jpeg);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 69px;
+	}
+main {
+    width: 768px;
+    height: 1834px;
+    background-color: #FFFFFF;
+    margin-left: 0px;
+    padding-left: 0px;
+    }
+#container {
+    width: 768px;
+    height: 1834px;
+    margin: auto;
+    background-color: white;
+}
+
+
+header {
+    with: 768px;
+    height: 250px;
+    background-image: url(blog_banner_final.png);
+    width: 768px;
+    background-size: contain;
+}
+
+
+img {
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-right: 9px;
+}
+
+.floatLeft{
+	float:left;
+}
+#container nav li {
+    display: block;
+    float: left;
+    width: 60px;
+    margin-right: 40px;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 18pt;
+}
+#container nav ul {
+    margin: auto;
+    width: 450px;
+}
+a:link {
+    color: #09ADF0;
+    text-decoration: none;
+	padding: 10px;
+}
+a:visited {
+    text-decoration: none;
+    color: #662D90;
+}
+a:hover {
+    text-decoration: none;
+	color:#FFFFFF;
+	background-color:#09ADF0;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+a:active {
+    text-decoration: none;
+    color: #EF4498;
+}
+article {
+    margin-bottom: 30px;
+}
+
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: bisque;
+    float: left;
+    clear: both;
+}
+/*float to the left*/
+aside {
+    width: 150px;
+    height: 1838px;
+    background-color: #03AEF0;
+    float: left;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.submit_btn {
+    width: 80px;
+    height: 30px;
+    background-color: #03AEF0;
+}
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px;
+    box-shadow: 6px 6px 35px 1px;
+}
+h1 {
+    color: #ED1C24;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+td{
+	background-color: rgba(255,255,255,1.00);
+	width: 600px;
+	padding: 20px;
+	border: 5px solid #191919;
+	border-radius: 20px;
+	
+}
+h3 {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 10px;
+    list-style-type: none;
+    width: 60px;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+
+th {
+	background-color:white;
+	font-weight: normal;
+	font-size:28px;
+	border: 5px solid #191919;
+	border-radius: 20px
+}
+article {
+    padding-left: 156px;
+}
+input {
+    font-size: 10px;
+}
